@@ -1,0 +1,121 @@
+<!-- <?php
+    $msg = "";
+
+    if (isset($_POST['submit'])) {
+
+        $con = new mysqli( host: 'localhost', username: 'research_email', password: 'test123', dbname: 'research_phpEmailConfirmation');
+
+        $email = $con->real_escape_string($_POST['email']);
+
+        if ($email == "") {
+            $msg = "Invalid Email.";
+        } else {
+            $sql = $con->query( query: "SELECT id FROM users WHERE email='$email' ");
+            if ($sql->num_rows > 0) {
+                $msg = "Email already exists."
+            }
+        }
+    }
+?> -->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Outsize landing page.">
+        <meta name="keywords" content="outsize, clothing, size">
+        <meta name="author" content="Garrett Lew, Jared <last name>">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Outsize | Landing</title>
+
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <header id="showcase">
+            <h1>Welcome</h1>
+            <p>Shop online again with Outsize.</p>
+            <section class="form">
+                
+                <div class = "row justify-content-center" style="margin: 10px;">
+                    
+                    <div class="col-md-6 col-md-offset-3" align="center"></div>
+
+                    <!-- <?php if ($msg != "") echo $msg . "<br><br>" ?> -->
+
+                    <form method="post" action="register.php">
+                        <input class="form-control" type="email" name="email" placeholder="Email..."><br>  
+                        <input class='btn btn-primary' type="submit" name="submit" value="SIGN UP">
+                    </form>
+
+                </div>       
+
+            </section>
+
+        </header>
+
+        <section id="section-a">
+            <h1>Measure.</h1>
+        </section>
+
+        <section id="section-b">
+            <h1>Match.</h1>
+        </section>
+
+        <section id="section-c">
+            <h1>Mail.</h1>
+        </section>
+
+        <section id="section-d">
+            <div class='block'>
+                <h1>Stop going to stores to find your size.</h1>
+            </div>
+
+            <div class="form">
+
+                <div class = "row justify-content-center" style="margin: 10px;">
+
+                    <p>Sign Up Today</p>
+                    
+                    <div class="col-md-6 col-md-offset-3" align="center"></div>
+
+    <!--                 <?php if ($msg != "") echo $msg . "<br><br>" ?> -->
+
+                    <form method="post" action="register.php">
+                        <input class="form-control" type="email" name="email" placeholder="Email...">  
+                        <input class='btn btn-primary' type="submit" name="submit" value="SIGN UP">
+                    </form>
+
+                </div> 
+
+            </div>
+
+        </section>
+
+        <section id="info">
+            <div class="box">
+                <h3>Blah</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="box">
+                
+            </div>
+            <div class="box">
+                <h3>Blah Blah</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+
+        </section>
+        <footer>
+            <p>Outsize | Landing, Copyright &copy; 2018</p>
+        </footer>
+
+       
+
+    </body>
+</html>
