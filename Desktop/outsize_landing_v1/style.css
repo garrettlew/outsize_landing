@@ -1,0 +1,169 @@
+/* Garrett Lew */
+
+/* Sets Default margin and Padding*/
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin:0;
+    font-family: "Trebuchet MS", Arial;
+    font-size: 17px;
+    color:#fff;
+    line-height: 1.6;
+}
+/* Showcase -- header; welcome */
+#showcase{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../img/showcase.jpg");
+    background-attachment: fixed;   
+    background-size: cover;
+    background-position: center;
+    height: 100vh;                      /*vh is viewport height. Allows website to fit different sizes*/
+    display: flex;                      /*Puts items on same row*/
+    flex-direction: column;             /*Now puts items in a col*/
+    justify-content: center;            /*Moves items down to center*/
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;                     /*Top&bottom:0 right&left:20*/
+    color: #fff;
+}
+
+#showcase h1{
+
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#showcase p{
+
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+#showcase .button{
+
+    background: url("../img/outsize.JPG") no-repeat;
+    background-size: cover;                 /*Makes image fit the background*/
+    background-position: center;
+    width: 60px;
+    height: 30px;
+    font-size:18px;
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    padding:10px 20px;
+    border-radius: 1em
+}
+
+#showcase .button:hover{
+    border: #fc3a14 3px solid;
+}
+
+/* First Section: */
+#section-a {
+
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/measure.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: 50px;
+    color: white;
+    padding: 40vh 50px;                     /*Top&bottom:0 right&left:20*/
+}
+
+#section-b {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/match.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: 50px;
+    color: white;
+    padding: 40vh 50px;                     /*Top&bottom:0 right&left:20*/
+}
+
+#section-c {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/package.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: 50px;
+    color: white;
+    padding: 40vh 50px;                     /*Top&bottom:0 right&left:20*/
+}
+
+#section-d {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/computer.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: 30px;
+    color: white;
+}
+
+#section-d .block {
+    width: 310px;
+    padding: 10vh 0px 20px 50px;
+}
+
+.form{ 
+    /*Just to center the form on the page*/ 
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    justify-content: center;            /*Moves items down to center*/
+    align-items: center;
+    text-align: center;
+
+}  
+
+.button {
+    display: inline-block;
+}
+
+/*Info Section*/
+#info{
+
+    padding: 20px;
+    background:#303030;
+    color:#fff;
+    text-align: center;
+    display:flex;
+    height: 80vh;
+
+}
+
+#info .box
+{
+    float: left;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#info .box p {
+    text-align: justify;
+    text-justify:inter-word;
+}  
+
+#info .box ol {
+    text-align: none;
+    text-justify: none;
+} 
+
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #303030;
+    text-align: center;
+} 
+
