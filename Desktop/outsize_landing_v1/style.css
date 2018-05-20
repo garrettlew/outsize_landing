@@ -124,8 +124,14 @@ body {
 
 }  
 
-.button {
-    display: inline-block;
+#button {
+    background-color: #00d2ff;
+}
+
+.margin-10{
+
+    margin: 10px 0;
+
 }
 
 /*Info Section*/
@@ -136,7 +142,8 @@ body {
     color:#fff;
     text-align: center;
     display:flex;
-    height: 80vh;
+    display: block;
+    overflow: auto;
 
 }
 
@@ -153,9 +160,10 @@ body {
     text-justify:inter-word;
 }  
 
-#info .box ol {
-    text-align: none;
+#info .box ul {
+    text-align: left;
     text-justify: none;
+    padding-left: 20px;
 } 
 
 footer
