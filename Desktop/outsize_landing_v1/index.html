@@ -46,8 +46,10 @@
         <header id="showcase">
 
             <h1>Welcome</h1>
-            <p>"Buy clothes that fit." <span style="font-style: italic;">-OutSize&trade;</span></p>
+            <p>Making Style Easy With OutSize&trade;.</p>
             <section class="form">
+
+                <p style="font-size: 32px;">Let's Get Started</p>
                 
                 <div class = "row justify-content-center" style="margin: 10px;">
                     
@@ -56,8 +58,11 @@
                     <!-- <?php if ($msg != "") echo $msg . "<br><br>" ?> -->
 
                     <form method="POST" action="register.php">
-                        <input class="form-control" type="email" name="email" placeholder="Email..."><br>  
-                        <input class='btn btn-primary' type="submit" name="submit" value="Start Sizing Today">
+                        <input class="form-control" type="text" name="name" placeholder="Name...">
+                        <br>  
+                        <input class="form-control" type="email" name="email" placeholder="Email...">
+                        <br>  
+                        <input class='btn btn-primary' id='button' type="submit" name="submit" value="Start Sizing Today">
                     </form>
 
                 </div>       
@@ -91,15 +96,17 @@
 
                 <div class = "row justify-content-center" style="margin: 10px;">
 
-                    <p>Sign Up Today</p>
+                    <p>Let's Get Started</p>
                     
                     <div class="col-md-6 col-md-offset-3" align="center"></div>
 
     <!--                 <?php if ($msg != "") echo $msg . "<br><br>" ?> -->
 
                     <form method="post" action="register.php">
-                        <input class="form-control" type="email" name="email" placeholder="Email...">  
-                        <input class='btn btn-primary' type="submit" name="submit" value="Start Sizing">
+                        <input class="form-control" type="text" name="name" placeholder="Name..." id="margin-10"> 
+                        <p></p>
+                        <input class="form-control" type="email" name="email" placeholder="Email..."> <br> 
+                        <input class='btn btn-primary' id='button' type="submit" name="submit" value="Start Sizing Today">
                     </form>
 
                 </div> 
@@ -111,7 +118,7 @@
         <section id="info">
             <div class="box">
                 <h3>Why OutSize&trade;</h3>
-                <p>Until now, you were faced with two options: shopping online with inaccurate sizing and limited selection, or driving to a physical store with more options to try the clothes on. With OutSize&trade;.net, we allow you to:</p>
+                <p>Until now, you were faced with two options: shopping online with inaccurate sizing and limited selection, or driving to a physical store with more options to try the clothes on with outsize.net, we allow you to:</p>
                 <ul>
                     <li>Purchase your clothes without fear of poor sizing or fit.</li>
                     <li>Browse a wide selection of clothing spanning a variety of major and local brands.</li>
