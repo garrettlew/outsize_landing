@@ -11,8 +11,8 @@ May 22 2018
     $email = $_POST['email'];
 
 
-    $sql = "INSERT INTO emails_list (first_names, emails, date)
-                VALUES ('$first', '$email', date(Y m d h:i:s));";
+    $sql = "INSERT INTO emails_list (first_names, emails)
+                VALUES ('$first', '$email');";
 
     mysql_query($conn, $sql);
 
