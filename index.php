@@ -4,7 +4,7 @@ Garrett Lew
 May 22 2018
 -->
 
-<!DOCTYPE html>
+<!DOCTYPE php>
 <html>
     <head>
         <meta charset="utf-8">
@@ -41,8 +41,6 @@ May 22 2018
                 <div class = "row justify-content-center" style="margin: 10px;">
                     
                     <div class="col-md-6 col-md-offset-3" align="center"></div>
-
-                    <!-- <?php if ($msg != "") echo $msg . "<br><br>" ?> -->
 
                     <form method="POST" action="includes/signup.inc.php">
                         <input class="form-control" type="text" name="name" placeholder="First Name...">
@@ -86,8 +84,6 @@ May 22 2018
                     <p>Let's Get Started</p>
                     
                     <div class="col-md-6 col-md-offset-3" align="center"></div>
-
-    <!--                 <?php if ($msg != "") echo $msg . "<br><br>" ?> -->
 
                     <form method="POST" action="includes/signup.inc.php">
                         <input class="form-control" type="text" name="name" placeholder="First Name..." id="margin-10"> 

@@ -5,7 +5,7 @@ May 22 2018
  -->
 <?php
 	
-	$dbServername = "localhost:8080";
+	$dbServername = "localhost";
 	$dbUsername = "root";
 	$dbPassword = "";	
 	$dbName = "outsize_emails";
