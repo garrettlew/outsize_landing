@@ -15,7 +15,7 @@ May 22 2018
 
     mysqli_query($conn, $sql);
 
-    header("Location: ../index.php?signup=success");
+    header("Location: ../default.html?signup=success");
 
     
 
