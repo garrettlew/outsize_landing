@@ -15,8 +15,9 @@ body {
 }
 /* Showcase -- header; welcome */
 #showcase{
+    -webkit-transform: translate3d(0,0,0);
     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../img/showcase.jpg");
-    background-attachment: fixed;   
+    /*background-image: url("../img/showcase.jpg");*/
     background-size: cover;
     background-position: center;
     height: 100vh;                      /*vh is viewport height. Allows website to fit different sizes*/
@@ -43,9 +44,9 @@ body {
 
 #showcase .button{
 
-    background: url("../img/outsize.JPG") no-repeat;
+    -webkit-transform: translate3d(0,0,0);
+    background: url("../img/outsize.JPG") no-repeat center center fixed;
     background-size: cover;                 /*Makes image fit the background*/
-    background-position: center;
     width: 60px;
     height: 30px;
     font-size:18px;
@@ -63,10 +64,10 @@ body {
 /* First Section: */
 #section-a {
 
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/measure.jpg");
-    background-attachment: fixed;
+    -webkit-transform: translate3d(0,0,0);
+    /*background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/measure.jpg");*/
+    background: url("../img/measure.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
     height: 100vh;
     font-size: 50px;
     color: white;
@@ -74,10 +75,10 @@ body {
 }
 
 #section-b {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/match.jpg");
-    background-attachment: fixed;
+    -webkit-transform: translate3d(0,0,0);
+    /*background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/match.jpg");*/
+    background: url("../img/match.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
     height: 100vh;
     font-size: 50px;
     color: white;
@@ -85,10 +86,10 @@ body {
 }
 
 #section-c {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/package.jpg");
-    background-attachment: fixed;
+    -webkit-transform: translate3d(0,0,0);
+    /*background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/package.jpg");*/
+    background: url("../img/package.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
     height: 100vh;
     font-size: 50px;
     color: white;
@@ -96,10 +97,10 @@ body {
 }
 
 #section-d {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/computer.jpg");
-    background-attachment: fixed;
+    -webkit-transform: translate3d(0,0,0);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/computer.jpg") no-repeat center center fixed;
+    /*background-image: url("../img/computer.jpg");*/
     background-size: cover;
-    background-position: center;
     height: 100vh;
     font-size: 30px;
     color: white;
