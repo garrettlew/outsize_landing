@@ -65,7 +65,6 @@ body {
 #section-a {
 
     -webkit-transform: translate3d(0,0,0);
-    /*background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/measure.jpg");*/
     background: url("../img/measure.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
@@ -76,7 +75,6 @@ body {
 
 #section-b {
     -webkit-transform: translate3d(0,0,0);
-    /*background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/match.jpg");*/
     background: url("../img/match.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
@@ -87,7 +85,6 @@ body {
 
 #section-c {
     -webkit-transform: translate3d(0,0,0);
-    /*background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/package.jpg");*/
     background: url("../img/package.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
@@ -98,8 +95,7 @@ body {
 
 #section-d {
     -webkit-transform: translate3d(0,0,0);
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("../img/computer.jpg") no-repeat center center fixed;
-    /*background-image: url("../img/computer.jpg");*/
+    background-image: url("../img/computer.jpg");
     background-size: cover;
     height: 100vh;
     font-size: 30px;
