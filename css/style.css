@@ -73,6 +73,10 @@ body {
     padding: 40vh 50px;                     /*Top&bottom:0 right&left:20*/
 }
 
+#section-a h1 {
+    font-size: 80px;
+}
+
 #section-b {
     -webkit-transform: translate3d(0,0,0);
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../img/match.jpg") no-repeat center center fixed;
@@ -81,6 +85,10 @@ body {
     font-size: 50px;
     color: white;
     padding: 40vh 50px;                     /*Top&bottom:0 right&left:20*/
+}
+
+#section-b h1 {
+    font-size: 80px;
 }
 
 #section-c {
@@ -93,6 +101,10 @@ body {
     padding: 40vh 50px;                     /*Top&bottom:0 right&left:20*/
 }
 
+#section-c h1 {
+    font-size: 80px;
+}
+
 #section-d {
     -webkit-transform: translate3d(0,0,0);
     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../img/computer.jpg");
@@ -103,8 +115,12 @@ body {
 }
 
 #section-d .block {
-    width: 310px;
+    width: 350px;
     padding: 10vh 0px 20px 50px;
+}
+
+#section-d .block h1 {
+    font-size: 50px;
 }
 
 .form{ 
