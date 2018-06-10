@@ -154,9 +154,10 @@ body {
     background:#303030;
     color:#fff;
     text-align: center;
-    display:flex;
-    display: block;
+/*    display:flex;
+    display: block;*/
     overflow: auto;
+
 
 }
 
@@ -165,18 +166,32 @@ body {
     float: left;
     padding: 10px;
     text-align: center;
+    display: block;
 
 }
 
 #info .box p {
     text-align: justify;
     text-justify:inter-word;
-}  
+    font-size: 32px;
+} 
+
+#info .box h1 {
+    font-size: 36px;
+} 
+
+#info .box ol {
+    text-align: left;
+    text-justify: none;
+    padding-left: 20px;
+    font-size: 24px;
+} 
 
 #info .box ul {
     text-align: left;
     text-justify: none;
     padding-left: 20px;
+    font-size: 24px;
 } 
 
 footer
