@@ -134,6 +134,7 @@ body {
     justify-content: center;            /*Moves items down to center*/
     align-items: center;
     text-align: center;
+    background-color: rgba(48, 48, 48, 0.7); 
 
 }  
 
