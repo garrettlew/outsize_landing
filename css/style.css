@@ -151,7 +151,7 @@ body {
 /*Info Section*/
 #info{
 
-    padding: 20px;
+    padding: 25px;
     background:#303030;
     color:#fff;
     text-align: center;
@@ -162,36 +162,37 @@ body {
 
 }
 
-#info .box
+/*#info .box
 {
     float: left;
     padding: 10px;
     text-align: center;
     display: block;
 
-}
+}*/
 
-#info .box p {
+#info p {
     text-align: justify;
-    text-justify:inter-word;
+    text-justify: inter-word;
     font-size: 32px;
 } 
 
-#info .box h1 {
+#info h1 {
     font-size: 36px;
+    text-align: center;
 } 
 
-#info .box ol {
+#info ol {
     text-align: left;
     text-justify: none;
-    padding-left: 20px;
+    padding-left: 30px;
     font-size: 24px;
 } 
 
-#info .box ul {
+#info ul {
     text-align: left;
     text-justify: none;
-    padding-left: 20px;
+    padding-left: 30px;
     font-size: 24px;
 } 
 
