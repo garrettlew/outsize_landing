@@ -158,18 +158,7 @@ body {
 /*    display:flex;
     display: block;*/
     overflow: auto;
-
-
 }
-
-/*#info .box
-{
-    float: left;
-    padding: 10px;
-    text-align: center;
-    display: block;
-
-}*/
 
 #info p {
     text-align: justify;
